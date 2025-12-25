@@ -26,6 +26,6 @@ sheet = client.open(spreadsheet_name).sheet1
 
 data = sheet.get_all_records()
 
-st.success("Berhasil terhubung ke Google Sheets 🎉")
+st.success("Berhasil terhubung ke Google Sheets")
 st.write(data)
 
